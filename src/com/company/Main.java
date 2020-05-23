@@ -15,8 +15,7 @@ public class Main extends ConsoleProgram {
 
     public void run() {
 
-        String input=readLine("Insert string here: ");
-        println(capitalize(input));
+        println(capitalize(readLine("Insert string here: ")));
 
 
 
